@@ -1,1 +1,1 @@
-# Berkley-AI-Ml-CApstone
+# Berkley-AI-Ml-Capstone
