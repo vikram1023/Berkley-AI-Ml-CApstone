@@ -50,6 +50,18 @@ We also observed that the 3 price categories are balanced.
 
 Holdout cross validation was used to split the data into train and test sets. Further GridSearchCV was used to evaluate different parameters for the models and settled on the final best model.
 
+## Model evaluation results
+**Support Vector Classifier:** The SVC model was the best model to clasfiy the priceranges with a naccurany of 0.95. 
+
+![SVM_CONF_Matrix](images/SVM_conf_matrix.png)
+
+**Logistic regression**: Accuract of 0.83
+
+![LogReg](images/log_reg_conf_matrix.png)
+
+**Random Forest:** Accuracy of .90
+
+![random Forest](images/Random_forest_conf_matrix.png)
 
 
 
