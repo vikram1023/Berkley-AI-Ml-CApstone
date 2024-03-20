@@ -37,16 +37,20 @@ There are 2000 records in the data set.
 
 **Exploratory Data Analysis:** The data does not contain any null or duplicate values and all the columns are numeric type. A corelation matrix was obtained to see the relation between the variable.
 Which shows is that Battery power, RAM, PX height and width are the most corellated features. 
+
 ![Corr](images/corellation_matrix.png)
 
 After doing a bit more exploration of the data, we arrived at the final data set to use for modelling with only the 4 most important features.
 We also observed that the 3 price categories are balanced. 
+
 ![Dist price range](images/dist_of_price_range.png)
 
 
 ## Methodology
 
 Holdout cross validation was used to split the data into train and test sets. Further GridSearchCV was used to evaluate different parameters for the models and settled on the final best model.
+
+
 
 
 
