@@ -64,6 +64,11 @@ Holdout cross validation was used to split the data into train and test sets. Fu
 ![random Forest](images/Random_forest_conf_matrix.png)
 
 
+Thank you
+
+For any questions please contact vikramswamy.m@gmail.com
+
+
 
 
 
